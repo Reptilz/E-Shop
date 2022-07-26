@@ -43,7 +43,7 @@
         </NuxtLink>
       </div>
       <div>
-        <div class="pt-2 mr-12 relative mx-auto text-gray-600">
+        <div class="pt-2 relative mx-auto text-gray-600">
           <input
             class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
             type="search"
@@ -82,8 +82,7 @@
       <p>Bag(0)</p>
     </NuxtLink>
     <NuxtLink
-      to="/user"
-      key="user"
+      to="/login"
       class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-12 ml-2"
     >
       <img
@@ -91,7 +90,7 @@
         src="../assets/medias/abstract-user-flat-1.png"
         alt=""
       />
-      <p>Jordan</p>
+      <p>Login</p>
     </NuxtLink>
   </nav>
 </template>
