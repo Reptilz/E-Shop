@@ -15,10 +15,7 @@
         />
       </svg>
     </div>
-    <h2 class="text-4xl tracking-tight">Sign in into your account</h2>
-    <span class="text-sm"
-      >or <a href="/register" class="text-blue-500"> register a new account </a>
-    </span>
+    <h2 class="text-4xl tracking-tight">Create your account</h2>
   </div>
   <div class="flex justify-center my-2 mx-4 md:mx-0">
     <form class="w-full max-w-xl bg-white rounded-lg shadow-md p-6">
@@ -47,28 +44,84 @@
             required
           />
         </div>
-        <div class="w-full flex items-center justify-between px-3 mb-3">
-          <label for="remember" class="flex items-center w-1/2">
-            <input type="checkbox" name="" id="" class="mr-1 bg-white shadow" />
-            <span class="text-sm text-gray-700 pt-1">Remember Me</span>
-          </label>
-          <div class="w-1/2 text-right">
-            <a href="#" class="text-blue-500 text-sm tracking-tight"
-              >Forget your password?</a
-            >
-          </div>
+        <div class="w-full md:w-full px-3 mb-6">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="Password"
+            >Confirm your password</label
+          >
+          <input
+            class="appearance-none block w-full bg-white text-gray-900 font-medium border border-gray-400 rounded-lg py-3 px-3 leading-tight focus:outline-none"
+            type="password"
+            required
+          />
         </div>
+
+        <div class="w-full md:w-full px-3 mb-6">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="firstname"
+            >Firstname</label
+          >
+          <input
+            class="appearance-none block w-full bg-white text-gray-900 font-medium border border-gray-400 rounded-lg py-3 px-3 leading-tight focus:outline-none"
+            type="text"
+            required
+          />
+        </div>
+
+        <div class="w-full md:w-full px-3 mb-6">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="lasname"
+            >Lastname</label
+          >
+          <input
+            class="appearance-none block w-full bg-white text-gray-900 font-medium border border-gray-400 rounded-lg py-3 px-3 leading-tight focus:outline-none"
+            type="text"
+            required
+          />
+        </div>
+
+        <div class="w-full md:w-full px-3 mb-6">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="address"
+            >Address</label
+          >
+          <input
+            class="appearance-none block w-full bg-white text-gray-900 font-medium border border-gray-400 rounded-lg py-3 px-3 leading-tight focus:outline-none"
+            type="text"
+            required
+          />
+        </div>
+
+        <div class="w-full md:w-full px-3 mb-6">
+          <label
+            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+            for="zip"
+            >Zip</label
+          >
+          <input
+            class="appearance-none block w-full bg-white text-gray-900 font-medium border border-gray-400 rounded-lg py-3 px-3 leading-tight focus:outline-none"
+            type="text"
+            required
+          />
+        </div>
+
         <div class="w-full md:w-full px-3 mb-6">
           <NuxtLink to="/shop">
             <button
               class="appearance-none block w-full bg-blue-600 text-gray-100 font-bold border border-gray-200 rounded-lg py-3 px-3 leading-tight hover:bg-blue-500 focus:outline-none focus:bg-white focus:border-gray-500"
             >
-              Sign in
+              Confirm
             </button>
           </NuxtLink>
         </div>
         <div class="mx-auto -mb-6 pb-1">
-          <span class="text-center text-xs text-gray-700">or sign up with</span>
+          <span class="text-center text-xs text-gray-700"
+            >or create your account with</span
+          >
         </div>
         <div class="flex items-center w-full mt-2">
           <div class="w-full md:w-1/3 px-3 pt-4 mx-2 border-t border-gray-400">
@@ -121,7 +174,7 @@
 
 <script setup>
 useHead({
-  title: "Login",
+  title: "Register",
 });
 
 definePageMeta({
