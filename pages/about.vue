@@ -15,7 +15,7 @@
         </div>
         <div class="md:7/12 lg:w-6/12">
           <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">
-            The development of Sneakers is carried out by passionate creators
+            The development of Vetements is carried out by passionate creators
           </h2>
           <p class="mt-6 text-gray-600">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis
